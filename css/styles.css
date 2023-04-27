@@ -1,0 +1,124 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);  
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Very-Light-Gray);
+}
+
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4em 1em 1em 1em;
+}
+
+span{
+    font-weight: 200;
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+
+h3{
+    padding-bottom: 1em;
+    line-height: 1.5em;
+    color: var( --Very-Dark-Blue);
+    letter-spacing: 1.3px;
+}
+
+h4{
+    padding-bottom: 1em;
+    font-weight: 700;
+    color: var( --Very-Dark-Blue);
+}
+
+p{
+    padding-bottom: 3em;
+    color: var(--Grayish-Blue);
+}
+
+img{
+    margin: 0 0 0 15em
+}
+
+.src{
+    padding-bottom: 1em;
+}
+
+.sp{
+    width: 85%;
+}
+
+.super{
+   width: 350px; 
+   margin: 0 auto 2em auto; 
+   text-align: left;
+   padding: 2em 0 0 1.5em;
+   background-color: white;
+   border-top: 3px solid;
+   border-color: var(--Cyan);
+   border-radius: 8px;
+   box-shadow: 0 0 14px 1px #00000027;
+}
+
+.team{
+    width: 350px;
+    margin: 0 auto 2em auto; 
+    text-align: left;
+    padding: 2em 0 0 1.5em;
+    background-color: white;
+    border-top: 3px solid;
+    border-color: var(--Red);
+    border-radius: 8px;
+    box-shadow: 0 0 14px 1px #00000027;
+}
+
+.karma{
+    width: 350px;
+    margin: 0 auto 2em auto; 
+    text-align: left;
+    padding: 2em 0 0 1.5em;
+    background-color: white;
+    border-top: 3px solid;
+    border-color: var(--Orange);
+    border-radius: 8px;
+    box-shadow: 0 0 14px 1px #00000027;
+}
+
+.cal{
+    width: 350px;
+    margin: 0 auto 2em auto; 
+    text-align: left;
+    padding: 2em 0 0 1.5em;
+    background-color: white;
+    border-top: 3px solid;
+    border-color: var(--Blue);
+    border-radius: 8px;
+    box-shadow: 0 0 14px 1px #00000027;
+}
