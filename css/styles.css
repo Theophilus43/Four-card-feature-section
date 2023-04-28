@@ -37,7 +37,8 @@ h6 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 4em 3em 1em 3em;
+    margin: 4em 3em 0em 3em;
+    padding-bottom: 0;
 }
 
 
@@ -159,10 +160,38 @@ img{
         box-shadow: 0 0 14px 1px #00000027;
         position: relative;
         left: 400px; 
-        bottom: ;
-    }
-        
+        bottom: 690px;
     }
 
+        
+    .team{
+        width: 350px;
+        margin: 0 auto 2em auto; 
+        text-align: left;
+        padding: 2em 0 0 1.5em;
+        background-color: white;
+        border-top: 3px solid;
+        border-color: var(--Red);
+        border-radius: 8px;
+        box-shadow: 0 0 14px 1px #00000027;
+        position: relative;
+        bottom: 249px;
+    }
+
+    .karma{
+        width: 350px;
+        margin: 0 auto 2em auto; 
+        text-align: left;
+        padding: 2em 0 0 1.5em;
+        background-color: white;
+        border-top: 3px solid;
+        border-color: var(--Orange);
+        border-radius: 8px;
+        box-shadow: 0 0 14px 1px #00000027;
+        position: relative;
+        bottom: 249px;
+    }
+            
+ }
+
    
-}
