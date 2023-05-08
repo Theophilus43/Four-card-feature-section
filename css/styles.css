@@ -37,13 +37,17 @@ h6 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 4em 3em 0em 3em;
+    align-items: center;
+    place-content: center;
+    margin: 4em 3em 1em 3em;
     padding-bottom: 0;
 }
 
 
+
+
 span{
-    font-weight: 200;
+    font-weight: 100;
     font-size: 23px;
     color: var(--Grayish-Blue);
 }
@@ -53,6 +57,8 @@ h2{
     line-height: 1.5em;
     color: var( --Very-Dark-Blue);
     letter-spacing: 1.3px;
+    font-weight: 600;
+    font-size: 28px;
 }
 
 h4{
@@ -66,132 +72,94 @@ p{
     color: var(--Grayish-Blue);
 }
 
-img{
-    margin: 0 0 0 15em
-}
-
-.src{
-    padding-bottom: 1em;
-}
-
 .sp{
-    width: 85%;
-    line-height: 1.5em;
+    margin-bottom: 4em;
+    color: var(--Grayish-Blue);
 }
 
-.top{
-    width: 80%;
-    margin: 0 auto;
-}
 
 .super{
-   width: 350px; 
-   margin: 0 auto 2em auto; 
-   text-align: left;
-   padding: 2em 0 0 1.5em;
-   background-color: white;
-   border-top: 3px solid;
-   border-color: var(--Cyan);
-   border-radius: 8px;
-   box-shadow: 0 0 14px 1px #00000027;
-}
-
-.team{
-    width: 350px;
-    margin: 0 auto 2em auto; 
-    text-align: left;
-    padding: 2em 0 0 1.5em;
     background-color: white;
-    border-top: 3px solid;
-    border-color: var(--Red);
-    border-radius: 8px;
-    box-shadow: 0 0 14px 1px #00000027;
+    margin-bottom: 2em;
+    text-align: left;
+    padding: 2em 1em 1em 1.5em; 
+    position: relative;
+    width: 120%;
+    max-width: 360px;
+    border-top: 3px solid var( --Cyan);
+    border-radius: 6px;
+    box-shadow: 0 6px 20px 0 rgb(174, 194, 201);
+}
+   
+.team{
+    background-color: white;
+    margin-bottom: 2em;
+    text-align: left;
+    padding: 2em 1em 1em 1.5em; 
+    position: relative;
+    width: 120%;
+    max-width: 360px;
+    border-top: 3px solid var(--Red);
+    border-radius: 6px;
+    box-shadow: 0 6px 20px 0 rgb(174, 194, 201);
 }
 
 .karma{
-    width: 350px;
-    margin: 0 auto 2em auto; 
-    text-align: left;
-    padding: 2em 0 0 1.5em;
     background-color: white;
-    border-top: 3px solid;
-    border-color: var(--Orange);
-    border-radius: 8px;
-    box-shadow: 0 0 14px 1px #00000027;
+    margin-bottom: 2em;
+    text-align: left;
+    padding: 2em 1em 1em 1.5em; 
+    position: relative;
+    width: 120%;
+    max-width: 360px;
+    border-top: 3px solid var(--Orange);
+    border-radius: 6px;
+    box-shadow: 0 6px 25px 0 rgb(174, 194, 201);
 }
 
 .cal{
-    width: 350px;
-    margin: 0 auto 2em auto; 
-    text-align: left;
-    padding: 2em 0 0 1.5em;
     background-color: white;
-    border-top: 3px solid;
-    border-color: var(--Blue);
-    border-radius: 8px;
-    box-shadow: 0 0 14px 1px #00000027;
+    margin-bottom: 4em;
+    text-align: left;
+    padding: 2em 1em 1em 1.5em; 
+    position: relative;
+    width: 120%;
+    max-width: 360px;
+    border-top: 3px solid var(--Blue);
+    border-radius: 6px;
+    box-shadow: 0 6px 20px 0 rgb(174, 194, 201);
 }
 
-@media (min-width: 1000px) {
-    .super{
-        width: 350px; 
-        margin: 0 auto 2em auto; 
-        text-align: left;
-        padding: 2em 0 0 1.5em;
-        background-color: white;
-        border-top: 3px solid;
-        border-color: var(--Cyan);
-        border-radius: 8px;
-        box-shadow: 0 0 14px 1px #00000027;
-        position: relative;
-        right: 400px; 
-        top: 150px;
-     }   
+.svg{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
 
-     .cal{
-        width: 350px;
-        margin: 0 auto 2em auto; 
-        text-align: left;
-        padding: 2em 0 0 1.5em;
-        background-color: white;
-        border-top: 3px solid;
-        border-color: var(--Blue);
-        border-radius: 8px;
-        box-shadow: 0 0 14px 1px #00000027;
+@media (min-width: 1100px) {
+    .container{
         position: relative;
-        left: 400px; 
-        bottom: 690px;
     }
 
-        
-    .team{
-        width: 350px;
-        margin: 0 auto 2em auto; 
-        text-align: left;
-        padding: 2em 0 0 1.5em;
-        background-color: white;
-        border-top: 3px solid;
-        border-color: var(--Red);
-        border-radius: 8px;
-        box-shadow: 0 0 14px 1px #00000027;
+    .super{
         position: relative;
-        bottom: 249px;
+        right: 25em;
+        top: 9.9em;
+    }
+
+    .team{
+        position: relative;
+        bottom: 15em;
     }
 
     .karma{
-        width: 350px;
-        margin: 0 auto 2em auto; 
-        text-align: left;
-        padding: 2em 0 0 1.5em;
-        background-color: white;
-        border-top: 3px solid;
-        border-color: var(--Orange);
-        border-radius: 8px;
-        box-shadow: 0 0 14px 1px #00000027;
         position: relative;
-        bottom: 249px;
+        bottom: 15em;
     }
-            
- }
 
-   
+    .cal{
+        position: relative;
+        left: 25em; 
+        bottom: 39.7em
+    }
+}
